@@ -13,7 +13,9 @@ public String Home() {
 }
 	@RequestMapping("/admin")
 	public String Admin() {
+		System.out.println("restricted");
 		return "Admin";
 	}
+	
 
 }
